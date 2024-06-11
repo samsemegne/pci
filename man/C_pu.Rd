@@ -29,6 +29,11 @@ Only vectors of length 1 are recycled.
 
 Yields \code{NaN} if \code{sigma} equals 0.
 }
+\examples{
+C_pu(mu = 3., sigma = 1., usl = 6., l = 3.)
+# [1] 1
+
+}
 \references{
 Montgomery, D. C. (2019). \emph{Introduction to statistical quality  control} (8th ed.). Wiley. ISBN: 978-1-119-39930-8
 }

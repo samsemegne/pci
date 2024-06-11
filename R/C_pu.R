@@ -20,6 +20,10 @@
 #' @returns `double`.
 #' @references `r get_montgomery_ref_str()`
 #' @seealso [C_pl()], [C_pk()]
+#' @examples
+#' C_pu(mu = 3., sigma = 1., usl = 6., l = 3.)
+#' # [1] 1
+#'
 #' @export
 C_pu = function(mu, sigma, usl, l) {
   if (!vek::is_num_vec_z(mu))
