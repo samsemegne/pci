@@ -32,6 +32,11 @@ Only vectors of length 1 are recycled.
 
 Yields \code{NaN} if \code{sigma == 0} and \code{mu == target}.
 }
+\examples{
+C_pm(mu = 3., sigma = 1., target = 3., lsl = 0., usl = 6., dl = 6.)
+# [1] 1
+
+}
 \references{
 Montgomery, D. C. (2019). \emph{Introduction to statistical quality  control} (8th ed.). Wiley. ISBN: 978-1-119-39930-8
 }
