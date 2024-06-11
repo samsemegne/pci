@@ -28,6 +28,11 @@ Only vectors of length 1 are recycled.
 
 Yields \code{NaN} if \code{sigma} equals 0.
 }
+\examples{
+C_p(sigma = 1., lsl = 0., usl = 6., dl = 6.)
+# [1] 1
+
+}
 \references{
 Montgomery, D. C. (2019). \emph{Introduction to statistical quality  control} (8th ed.). Wiley. ISBN: 978-1-119-39930-8
 }

@@ -18,6 +18,10 @@
 #' 0.
 #' @returns `double`.
 #' @references `r get_montgomery_ref_str()`
+#' @examples
+#' C_p(sigma = 1., lsl = 0., usl = 6., dl = 6.)
+#' # [1] 1
+#'
 #' @export
 C_p = function(sigma, lsl, usl, dl) {
   if (!vek::is_num_vec_z(sigma))
