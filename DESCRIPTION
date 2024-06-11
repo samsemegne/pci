@@ -5,9 +5,14 @@ Authors@R:
     person("Sam", "Semegne", email = "sam.ahoi@hotmail.com", role = c("aut", "cre"))
 Maintainer: Sam Semegne <sam.ahoi@hotmail.com>
 Description:
-  Provides a collection of process capability index functions, such as C_p,
-  C_pk, C_pm, and others, along with metadata about each, like LaTeX equations
-  and R expressions.
+  A collection of process capability index functions, such as
+  C_p(), C_pk(), C_pm(), and others, along with metadata about each, like
+  'LaTeX' equations and 'R' expressions. Its primary purpose is to form a
+  foundation for other quality control packages to build on top of, by providing
+  basic resources and functions (no estimation methods). PCIs belong to the
+  field of statistical quality control, and quantify the degree to which a
+  manufacturing process is able to create items that adhere to a certain
+  standard of quality.
 License: GPL-3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
