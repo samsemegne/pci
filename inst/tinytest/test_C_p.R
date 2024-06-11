@@ -56,7 +56,7 @@ expect_identical(C_p(0., 1., 2., 6.), NaN)
 expect_identical(C_p(c(0., 1/6), 1., 2., 6.), c(NaN, 1.))
 
 
-# Test known relations to other CPI's.
+# Test known relations to other PCI's.
 expect_identical(
   C_p(1/6, 1., 2., 6.),
   (C_pl(1.5, 1/6, 1., 3.) + C_pu(1.5, 1/6, 2., 3.)) / 2.
