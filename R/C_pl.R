@@ -22,8 +22,8 @@
 #' @seealso [C_pu()], [C_pk()]
 #' @examples
 #' set.seed(1L)
-#' y = rnorm(n = 30L, mean = 3., sd = 1.)
-#' C_pl(mu = mean(y), sigma = sd(y), lsl = 0., l = 3.)
+#' data = rnorm(n = 30L, mean = 3., sd = 1.)
+#' C_pl(mu = mean(data), sigma = sd(data), lsl = 0., l = 3.)
 #' # [1] 1.111853
 #'
 #' @export

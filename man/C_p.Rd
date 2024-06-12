@@ -29,8 +29,10 @@ Only vectors of length 1 are recycled.
 Yields \code{NaN} if \code{sigma} equals 0.
 }
 \examples{
-C_p(sigma = 1., lsl = 0., usl = 6., dl = 6.)
-# [1] 1
+set.seed(1L)
+data = rnorm(n = 30L, mean = 3., sd = 1.)
+C_p(sigma = sd(data), lsl = 0., usl = 6., dl = 6.)
+# [1] 1.08211
 
 }
 \references{

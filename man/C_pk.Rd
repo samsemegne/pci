@@ -33,8 +33,8 @@ Yields \code{NaN} if \code{sigma} equals 0.
 }
 \examples{
 set.seed(1L)
-y = rnorm(n = 30L, mean = 3., sd = 1.)
-C_pk(mu = mean(y), sigma = sd(y), lsl = 0., usl = 6., dl = 6.)
+data = rnorm(n = 30L, mean = 3., sd = 1.)
+C_pk(mu = mean(data), sigma = sd(data), lsl = 0., usl = 6., dl = 6.)
 # [1] 1.052367
 
 }
