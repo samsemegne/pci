@@ -45,6 +45,11 @@ expect_identical(colnames(pci_info)[1:6], colnames_1_to_6) # v1.0.0 columns
 rm(colnames_1_to_6)
 
 
+rownames_1_to_5 = c("C_p", "C_pl", "C_pu", "C_pk", "C_pm")  # v1.0.0 rows
+expect_identical(row.names(pci_info)[1:5], rownames_1_to_5)
+rm(rownames_1_to_5)
+
+
 # Test column 'pci_id' ---------------------------------------------------------
 expect_ok_chr_vec(pci_info$pci_id)
 expect_true(all(is_valid_r_name(pci_info$pci_id), na.rm = TRUE))
