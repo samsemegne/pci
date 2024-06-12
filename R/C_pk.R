@@ -22,8 +22,10 @@
 #' @references `r get_montgomery_ref_str()`
 #' @seealso [C_pl()], [C_pu()]
 #' @examples
-#' C_pk(mu = 3., sigma = 1., lsl = 0., usl = 6., dl = 6.)
-#' # [1] 1
+#' set.seed(1L)
+#' y = rnorm(n = 30L, mean = 3., sd = 1.)
+#' C_pk(mu = mean(y), sigma = sd(y), lsl = 0., usl = 6., dl = 6.)
+#' # [1] 1.052367
 #'
 #' @export
 C_pk = function(mu, sigma, lsl, usl, dl) {
