@@ -30,8 +30,10 @@ Only vectors of length 1 are recycled.
 Yields \code{NaN} if \code{sigma} equals 0.
 }
 \examples{
-C_pl(mu = 3., sigma = 1., lsl = 0., l = 3.)
-# [1] 1
+set.seed(1L)
+y = rnorm(n = 30L, mean = 3., sd = 1.)
+C_pl(mu = mean(y), sigma = sd(y), lsl = 0., l = 3.)
+# [1] 1.111853
 
 }
 \references{
