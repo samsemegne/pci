@@ -33,8 +33,10 @@ Only vectors of length 1 are recycled.
 Yields \code{NaN} if \code{sigma == 0} and \code{mu == target}.
 }
 \examples{
-C_pm(mu = 3., sigma = 1., target = 3., lsl = 0., usl = 6., dl = 6.)
-# [1] 1
+set.seed(1L)
+y = rnorm(n = 30L, mean = 3., sd = 1.)
+C_pm(mu = mean(y), sigma = sd(y), target = 3., lsl = 0., usl = 6., dl = 6.)
+# [1] 1.077827
 
 }
 \references{

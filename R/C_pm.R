@@ -21,8 +21,10 @@
 #' @returns `double`.
 #' @references `r get_montgomery_ref_str()`
 #' @examples
-#' C_pm(mu = 3., sigma = 1., target = 3., lsl = 0., usl = 6., dl = 6.)
-#' # [1] 1
+#' set.seed(1L)
+#' y = rnorm(n = 30L, mean = 3., sd = 1.)
+#' C_pm(mu = mean(y), sigma = sd(y), target = 3., lsl = 0., usl = 6., dl = 6.)
+#' # [1] 1.077827
 #'
 #' @export
 C_pm = function(mu, sigma, target, lsl, usl, dl) {
