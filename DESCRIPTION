@@ -1,6 +1,6 @@
 Package: pci
 Title: A Collection of Process Capability Index Functions
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: 
     person("Sam", "Semegne", email = "sam.ahoi@hotmail.com", role = c("aut", "cre"))
 Maintainer: Sam Semegne <sam.ahoi@hotmail.com>
